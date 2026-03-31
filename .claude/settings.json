@@ -11,7 +11,9 @@
       "Bash(cmd.exe /c \"taskkill /PID 23136 /F 2>&1 & taskkill /PID 24832 /F 2>&1 & taskkill /PID 3436 /F 2>&1\")",
       "Bash(cmd.exe /c \"taskkill /PID 23136 /F\")",
       "Bash(cmd.exe /c \"taskkill /PID 24832 /F\")",
-      "Bash(cmd.exe /c \"taskkill /PID 3436 /F\")"
+      "Bash(cmd.exe /c \"taskkill /PID 3436 /F\")",
+      "Bash(powershell.exe -Command \"Stop-Process -Id 23136,24832,3436 -Force -ErrorAction SilentlyContinue; Write-Host ''done''\")",
+      "Bash(python -m http.server 3000)"
     ]
   }
 }
