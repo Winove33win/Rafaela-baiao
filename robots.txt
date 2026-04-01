@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rafaellabaiao.com.br/sitemap.xml
+
+# Permitir que o Google indexe todas as imagens
+User-agent: Googlebot-Image
+Allow: /
